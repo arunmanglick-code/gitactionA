@@ -8,18 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: eccho "Hello World"
+        run: echo "Hello World"
         timeout-minutes: 0
       - name: multiline scripts
         run: |
            node -v 
            npm -v
-  #     - name: python Command 
-  #       run: |
-  #         import platform 
-  #         print
-  #         (platform.processor())
-  #       shell: python
+      - name: python Command 
+        run: |
+          import platform 
+          print
+          (platform.processor())
+        shell: python
   # run-windwos-commands:
   #   runs-on: windows-latest
   #   needs: ["run-shell-command"]
