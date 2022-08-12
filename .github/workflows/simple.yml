@@ -1,9 +1,10 @@
-name: Shell Commands 
+name: WF1_Shell Commands 
 
 on: [pull_request]
 
 jobs:
-  run-shell-command:
+  my-shell-command:
+    name: Run on ubuntu-latest
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
