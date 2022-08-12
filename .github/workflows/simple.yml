@@ -1,6 +1,6 @@
 name: WF1_Shell Commands 
 
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   my-shell-command:
