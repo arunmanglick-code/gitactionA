@@ -1,6 +1,6 @@
 name: WF1_Shell Commands 
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   job1-on-ubuntu:

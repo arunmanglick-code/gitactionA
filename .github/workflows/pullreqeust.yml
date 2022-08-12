@@ -1,0 +1,12 @@
+name: WF3_Over_Pull_Request 
+
+on: [pull_request]
+
+jobs:
+  job1-on-ubuntu:
+    # name: Run on ubuntu-latest
+    runs-on: ubuntu-latest
+    steps: 
+      - name: echo a string
+        run: echo "Ran on Pull Request"
+      
