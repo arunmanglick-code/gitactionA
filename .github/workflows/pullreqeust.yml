@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: echo "Ran on Pull Request"
+        run: echo "Ran GA on Pull Request"
       
