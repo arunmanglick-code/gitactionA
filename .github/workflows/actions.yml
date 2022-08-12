@@ -30,7 +30,6 @@ jobs:
       #   run: echo ${{ github.event.client_payload.env }}
       - name: List Files 
         run: |
-          pwd
           ls -a
       #     echo $GITHUB_SHA
       #     echo $GITHUB_REPOSITORY
