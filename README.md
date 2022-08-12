@@ -1,2 +1,1 @@
-# gitactionA
- 
+# github-actions-course
