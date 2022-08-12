@@ -3,12 +3,12 @@ name: WF1_Shell Commands
 on: [push, pull_request]
 
 jobs:
-  my-shell-command:
+  my-shell-job:
     # name: Run on ubuntu-latest
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: echo "Hello World"
+        run: eccho "Hello World"
         timeout-minutes: 0
       - name: multiline scripts
         run: |
