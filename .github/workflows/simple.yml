@@ -3,7 +3,7 @@ name: WF1_Shell Commands
 on: [push, pull_request]
 
 jobs:
-  my-ubunto-job:
+  job1-on-ubuntu:
     # name: Run on ubuntu-latest
     runs-on: ubuntu-latest
     steps: 
@@ -20,9 +20,9 @@ jobs:
           print
           (platform.processor())
         shell: python
-  my-windows-job:
+  job2-on-windows:
     runs-on: windows-latest
-    needs: ["my-ubunto-job"]
+    needs: ["job1-on-ubuntu"]
     steps:
       - name: Directory PowerShell
         run: Get-Location 
