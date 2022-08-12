@@ -28,7 +28,7 @@ jobs:
     steps:
       # - name: playload
       #   run: echo ${{ github.event.client_payload.env }}
-      - name: List Files 
+      - name: List Files Before Checkout
         run: |
           pwd 
           ls -a
@@ -38,12 +38,12 @@ jobs:
           echo "${{ github.token }}"
           # git clone git@github:$GITHUB_REPOSITORY
           # git checkout $GITHUB_SHA
-      # - name: Checkout 
-      #   uses: actions/checkout@v1
-      # - name: List Files After Checkout
-      #   run: |
-      #     pwd
-      #     ls -a
+      - name: Checkout 
+        uses: actions/checkout@v1
+      - name: List Files After Checkout
+        run: |
+          pwd
+          ls -a
       - name: Run External Github Action
         id: greetMe 
         uses: actions/hello-world-javascript-action@v1  #https://github.com/actions/hello-world-javascript-action
