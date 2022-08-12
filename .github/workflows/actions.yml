@@ -1,9 +1,9 @@
-name: Run External Github Actions Workflow
+name: WF2_Run External Github Actions Workflow
 
 on:
   push:
     branches:
-      - master
+      - main
     #   - "feature/**" # matches featur/featA, feature/featB, doesn't match feature/feat/a
     #   - "!feature/featc"
     # tags: 
