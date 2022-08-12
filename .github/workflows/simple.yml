@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   my-shell-command:
-    name: Run on ubuntu-latest
+    # name: Run on ubuntu-latest
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
