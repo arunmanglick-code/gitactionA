@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: echo "Ran GA on Pull Request"
+        run: echo "Ran GA on Repository_Dispatch"
 
 # Create a repository dispatch event
 # repository_dispatch a webhook event which can be called, when you want against any activity that happens outside of GitHub 
