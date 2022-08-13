@@ -4,8 +4,8 @@ on:
   pull_request:
     types : [opened, closed, assigned, reopened]
   schedule:
-    - cron: "0/5 * * * *"
-    - cron: "0/6 * * * *" 
+    - cron: "0/1 * * * *"
+    - cron: "0/2 * * * *" 
 
 jobs:
   job1-on-ubuntu:
