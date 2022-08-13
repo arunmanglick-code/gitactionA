@@ -2,8 +2,9 @@ name: WF3_Over_Pull_Request
 
 on: 
   schedule:
-    - cron: "0/5 * * * *"
-    - cron: "0/6 * * * *" 
+    - cron: "* * * * *"
+  pull_request:
+    types : [opened, closed, assigned, reopened]
 
 jobs:
   job1-on-ubuntu:
