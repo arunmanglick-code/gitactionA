@@ -1,6 +1,8 @@
 name: WF3_Over_Pull_Request 
 
 on: 
+  repository_dispatch:
+    types: [build]
   schedule:
     - cron: "* * * * *"
   pull_request:
