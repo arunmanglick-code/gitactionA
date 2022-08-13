@@ -1,12 +1,8 @@
-name: WF3_Over_Pull_Request 
+name: WF4_Cron Scheduled 
 
 on: 
-  repository_dispatch:
-    types: [build]
   schedule:
     - cron: "* * * * *"
-  pull_request:
-    types : [opened, closed, assigned, reopened]
 
 jobs:
   job1-on-ubuntu:
@@ -14,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: echo "Ran GA on Pull Request"
+        run: echo "Ran GA on Cron Schedule"
 
 
 # Postman request to trigger this Github action on 'repository_dispatch'

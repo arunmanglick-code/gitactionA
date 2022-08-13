@@ -1,4 +1,4 @@
-name: WF3_Over_Pull_Request 
+name: WF5_Over_Repository_Dispatch 
 
 on: 
   repository_dispatch:
@@ -15,6 +15,11 @@ jobs:
     steps: 
       - name: echo a string
         run: echo "Ran GA on Pull Request"
+
+# Create a repository dispatch event
+# repository_dispatch a webhook event which can be called, when you want against any activity that happens outside of GitHub 
+# to trigger a GitHub Actions workflow 
+# https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event
 
 
 # Postman request to trigger this Github action on 'repository_dispatch'
