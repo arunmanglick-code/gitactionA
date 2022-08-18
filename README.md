@@ -5,3 +5,5 @@
 # 3. Can you run github action on PR pull_request: Closed & ReOpened (gittogether\gitactionA\.github\workflows\03_pullreqeust.yml)
 # 4. How to run github actions on a cron schedule (gittogether\gitactionA\.github\workflows\04_cronschedule.yml)
 # 5. How to run github actions against any activity that happens outside of GitHub (gittogether\gitactionA\.github\workflows\05_repositorydispatch.yml)
+# 6. How you use Workflow/Job/Step level variables (gittogether\gitactionA\.github\workflows\06_env.yml)
+# 7. How to print on which event name on which github triggered (gittogether\gitactionA\.github\workflows\06_env.yml)
