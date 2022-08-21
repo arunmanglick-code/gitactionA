@@ -7,3 +7,5 @@
 # 5. How to run github actions against any activity that happens outside of GitHub (gittogether\gitactionA\.github\workflows\05_repositorydispatch.yml)
 # 6. How you use Workflow/Job/Step level variables (gittogether\gitactionA\.github\workflows\06_env.yml)
 # 7. How to print on which event name on which github triggered (gittogether\gitactionA\.github\workflows\06_env.yml)
+# 8. What are various default Github event variables (https://docs.github.com/en/actions/learn-github-actions/environment-variables)
+# 9. What is Workflow_dispatch in GitHub Actions? - This action triggers another GitHub Actions workflow, using the workflow_dispatch event. The workflow must be configured for this event type e.g. on: [workflow_dispatch] This allows you to chain workflows, the classic use case is have a CI build workflow, trigger a CD release/deploy workflow when it completes.
