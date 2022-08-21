@@ -10,7 +10,7 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
+        description: 'Person to greet' <a> See https://vertexinc.atlassian.net/wiki/spaces/CONs/pages/3568205846/Email+Whitelist+for+LA for details.</a>
         # Options to choose
         type: choice
         options:
