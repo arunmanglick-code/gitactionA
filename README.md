@@ -9,3 +9,7 @@
 # 7. How to print on which event name on which github triggered (gittogether\gitactionA\.github\workflows\06_env.yml)
 # 8. What are various default Github event variables (https://docs.github.com/en/actions/learn-github-actions/environment-variables)
 # 9. What is Workflow_dispatch in GitHub Actions? - This action triggers another GitHub Actions workflow, using the workflow_dispatch event. The workflow must be configured for this event type e.g. on: [workflow_dispatch] This allows you to chain workflows, the classic use case is have a CI build workflow, trigger a CD release/deploy workflow when it completes.
+# 10. Use of Docker Container in addtion to runs-on in Github Actions (https://youtu.be/abJ00EesfZA)
+# 11. Setting default values for jobs (https://docs.github.com/en/actions/using-jobs/setting-default-values-for-jobs)
+# 12. What is the use of 'paths' - It specifies which files must have been modified in order to run the workflow
+# 
